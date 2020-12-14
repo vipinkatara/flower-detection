@@ -1,4 +1,4 @@
-The detailed article of this project can be found [here.](https://vipinkatara2.medium.com/detecting-malaria-from-cell-images-using-cnn-e9ab9346cb0)
+The detailed article of this project can be found [here.](https://vipinkatara2.medium.com/)
 
 ## Table of contents
 * [General info](#general-info)
@@ -7,7 +7,15 @@ The detailed article of this project can be found [here.](https://vipinkatara2.m
 * [Setup](#setup)
 
 ## General info
-In this project, we have developed the neural network to classify, whether a cell is infected or not using Convolution Neural Network. We have used a dataset provided by Kaggle, which contains 27,558 images of infected and uninfected cells.
+In this project, we have developed the neural network to classify, which spieces does the flower belong using CNN based Neural Network i.e. VGG16. We have used a dataset provided by Kaggle, which contains 4242 images of flowers.
+Categories of flower available :
+```
+1. Daisy
+2. Dandelion
+3. Rose
+4. Sunflower
+5. Tulip
+```
 
 
 ## Prerequisites
@@ -37,8 +45,8 @@ Project is created with:
 
 	
 ## Setup
-To run this project, you can directly open the ```malaria_detection.ipynb``` in jupyter notebook or google colab.
-else run the ```malaria_detection.py``` file.
+To run this project, you can directly open the ```Flower-detection.ipynb``` in jupyter notebook or google colab.
+else run the ```Flower-detection.py``` file.
 
 Open a new terminal and execute the following:
 
