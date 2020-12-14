@@ -1,18 +1,45 @@
-Context
+The detailed article of this project can be found [here.](https://vipinkatara2.medium.com/detecting-malaria-from-cell-images-using-cnn-e9ab9346cb0)
 
-This dataset contains 4242 images of flowers.
-The data collection is based on the data flicr, google images, yandex images.
-You can use this datastet to recognize plants from the photo.
+## Table of contents
+* [General info](#general-info)
+* [Prerequisites](#prerequisites)
+* [Dependencies](#dependencies)
+* [Setup](#setup)
 
-Content
+## General info
+In this project, we have developed the neural network to classify, whether a cell is infected or not using Convolution Neural Network. We have used a dataset provided by Kaggle, which contains 27,558 images of infected and uninfected cells.
 
-The pictures are divided into five classes: chamomile, tulip, rose, sunflower, dandelion.
-For each class there are about 800 photos. Photos are not high resolution, about 320x240 pixels. Photos are not reduced to a single size, they have different proportions!
 
-Acknowledgements
+## Prerequisites
+To use it, you require the following:
 
-The data collection is based on scraped data from flickr, google images, and yandex images.
+```
+1. Python3
+2. Pip
+```
 
-Inspiration
+## Installing
+Once you got the requisites on your machine, execute the following command:
 
-What kind of flower is that?
+```
+$ pip install -r requirements.txt
+```
+This will install all the required libraries for you.
+	
+## Dependencies
+Project is created with:
+* Keras: ```pip install keras```
+* Numpy: ```pip install numpy```
+* Matplotlib: ```pip install matplotlib```
+* Seaborn: ```pip install seaborn```
+* Scikit Learn: ```pip install sklearn```
+* OpenCV: ```pip install opencv-python```
+
+	
+## Setup
+To run this project, you can directly open the ```malaria_detection.ipynb``` in jupyter notebook or google colab.
+else run the ```malaria_detection.py``` file.
+
+Open a new terminal and execute the following:
+
+```$ python3 malaria_detection.py```
